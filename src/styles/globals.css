@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.gradiant-bg-one {
+  background: linear-gradient(180deg, #ADADAD 0%, #E8E8E8 100%),
+    linear-gradient(0deg, #E2E2E2, #E2E2E2);
+}
+
+.gradiant-bg-two {
+  background: linear-gradient(0deg, #E2E2E2, #E2E2E2),
+    linear-gradient(180deg, #E3E3E3 0%, #E8E8E8 100%);
+
+}
+
+/* navbar  */
+.navbar-search {
+  background: linear-gradient(90.43deg, #C6C6C6 -36.31%, rgba(0, 0, 0, 0) 97.95%),
+    linear-gradient(0deg, #C8C8C8, #C8C8C8);
+  box-shadow: 4px 5px 8px 0px #77777740 inset;
+
+  box-shadow: 4px 2px 6px 0px #00000040;
+
+}
+
+.navbar-drop-shadow {
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+}
+
+.best-collection-bg {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.07%, #232323 103.22%);
+
+}
+
+.shadow-set {
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(0, 0, 0, 0.03);
+
+  box-shadow: 0px 6.650102138519287px 5.32008171081543px 0px rgba(0, 0, 0, 0.05);
+
+  box-shadow: 0px 12.521552085876465px 10.017241477966309px 0px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 22.3363094329834px 17.869047164916992px 0px rgba(0, 0, 0, 0.07);
+
+  box-shadow: 0px 41.777610778808594px 33.422088623046875px 0px rgba(0, 0, 0, 0.09);
+
+  box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.12);
+  background-position: -10% top;
+}
+
+/* tab card shadow set  */
+.shadow-set-for-tab-card {
+  box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px #00000007;
+
+  box-shadow: 0px 6.650102138519287px 5.32008171081543px 0px #0000000A;
+
+  box-shadow: 0px 12.521552085876465px 10.017241477966309px 0px #0000000D;
+
+  box-shadow: 0px 22.3363094329834px 17.869047164916992px 0px #0000000F;
+
+  box-shadow: 0px 41.777610778808594px 33.422088623046875px 0px #00000012;
+
+  box-shadow: 0px 100px 80px 0px #0000001A;
+
+}
+
+/* customer photo , product details large */
+.shadow-set-customer-photo {
+  background: #6A6A6A87;
+  font-weight: 800;
+}
+
+/* popup bg  */
